@@ -1,0 +1,16 @@
+ISOFS V0.2.1 (GPL-freeware)
+(C) Chris Wohlgemuth 2000-2001
+http://www.geocities.com/SiliconValley/Sector/5785/
+
+ISOFS is an installable filesystem for seemless
+read-only access to the contents of ISO imagefiles
+suitable for burning on CD. 
+
+Requirements:
+EMX runtime libraries fix 3.
+
+Licence:
+This package is provided 'as is' under the
+Gnu public Licence (GPL).
+Read the file 'Copying' for further information.
+

@@ -1,0 +1,146 @@
+[APPLICATION]
+NAME ISO-image filesystem driver
+VERSION 0.2.1.0
+COPYRIGHT (C) Chris Wohlgemuth 2000-2001
+HOME http://www.geocities.com/SiliconValley/Sector/5785/
+INTERNALNAME ISOFS
+TOTALSIZE 1331155
+INSTALLER 0.1.0.0
+DESCRIPTION ISO-FS is an installable filesystem for seemless read-only access to ISO image files used for burning on CD. Make sure to deinstall any older version before installing.
+
+[DESCRIPTION]
+DESCRIPTION  ISO-FS is an installable filesystem for seemless read-only access to ISO image files used for burning on CD. Make sure to deinstall any older version before installing.
+
+[LICENSE]
+FILE Docs\COPYING
+
+[FILES]
+FILE_ID.DIZ, %TARGET%\ ,  F,  428
+install.cmd, %TARGET%\ ,  F,  4973
+isofs.ins, %TARGET%\ ,  F,  7676
+readme.1st, %TARGET%\ ,  F,  266
+bin\isofsdmn.exe, %TARGET%\ ,  F,  131076
+bin\mntisofs.exe, %TARGET%\ ,  F,  16388
+bin\stubfsd.ifs, %TARGET%\ ,  F,  12562
+bin\umntiso.exe, %TARGET%\ ,  F,  16388
+bin\uninstal.cmd, %TARGET%\ ,  F,  4167
+Docs\COPYING, %TARGET%\ ,  F,  18043
+Docs\readme.inf, %TARGET%\ ,  F,  11097
+Source\COPYING, %TARGET%\ ,  F,  18043
+Source\FILE_ID.DIZ, %TARGET%\ ,  F,  428
+Source\Makefile, %TARGET%\ ,  F,  2098
+Source\Makefile.incl, %TARGET%\ ,  F,  1080
+Source\Readme.1st, %TARGET%\ ,  F,  266
+Source\readme.src, %TARGET%\ ,  F,  8501
+Source\corefs\corefs.h, %TARGET%\ ,  F,  5824
+Source\corefs\isoaccess.c, %TARGET%\ ,  F,  12418
+Source\corefs\Makefile, %TARGET%\ ,  F,  190
+Source\ifsdaemon\aefsdint.h, %TARGET%\ ,  F,  2444
+Source\ifsdaemon\aefsdmn.h, %TARGET%\ ,  F,  7959
+Source\ifsdaemon\attach.c, %TARGET%\ ,  F,  16264
+Source\ifsdaemon\debug.c, %TARGET%\ ,  F,  70740
+Source\ifsdaemon\debug.c.flc, %TARGET%\ ,  F,  20106
+Source\ifsdaemon\dir.c, %TARGET%\ ,  F,  3503
+Source\ifsdaemon\ea.c, %TARGET%\ ,  F,  6758
+Source\ifsdaemon\except.c, %TARGET%\ ,  F,  28114
+Source\ifsdaemon\fileinfo.c, %TARGET%\ ,  F,  10643
+Source\ifsdaemon\fileio.c, %TARGET%\ ,  F,  5340
+Source\ifsdaemon\fileop.c, %TARGET%\ ,  F,  1854
+Source\ifsdaemon\find.c, %TARGET%\ ,  F,  16247
+Source\ifsdaemon\iso9660.h, %TARGET%\ ,  F,  8856
+Source\ifsdaemon\isofsdmn.c, %TARGET%\ ,  F,  14794
+Source\ifsdaemon\isofsdmn.imp, %TARGET%\ ,  F,  69
+Source\ifsdaemon\isoinfo.c, %TARGET%\ ,  F,  20681
+Source\ifsdaemon\Makefile, %TARGET%\ ,  F,  706
+Source\ifsdaemon\misc.c, %TARGET%\ ,  F,  1079
+Source\ifsdaemon\openclose.c, %TARGET%\ ,  F,  7889
+Source\ifsdaemon\utils.c, %TARGET%\ ,  F,  7767
+Source\ifsdriver\fsd.h, %TARGET%\ ,  F,  15598
+Source\ifsdriver\Makefile, %TARGET%\ ,  F,  643
+Source\ifsdriver\stubfsd.c, %TARGET%\ ,  F,  45178
+Source\ifsdriver\stubfsd.def, %TARGET%\ ,  F,  244
+Source\ifsdriver\stubfsd.h, %TARGET%\ ,  F,  12286
+Source\ifsutils\Makefile, %TARGET%\ ,  F,  417
+Source\ifsutils\mntisofs.c, %TARGET%\ ,  F,  6226
+Source\ifsutils\umntiso.c, %TARGET%\ ,  F,  3896
+Source\include\debug.h, %TARGET%\ ,  F,  27572
+Source\include\except.h, %TARGET%\ ,  F,  5640
+Source\include\mconfig.h, %TARGET%\ ,  F,  6397
+Source\include\nls.h, %TARGET%\ ,  F,  3124
+Source\include\prototyp.h, %TARGET%\ ,  F,  1832
+Source\include\strdefs.h, %TARGET%\ ,  F,  2581
+Source\include\unls.h, %TARGET%\ ,  F,  1652
+Source\include\xconfig.h, %TARGET%\ ,  F,  14831
+Source\libunls\#nls_iso8859-8.c#, %TARGET%\ ,  F,  15415
+Source\libunls\Makefile, %TARGET%\ ,  F,  684
+Source\libunls\nls.h, %TARGET%\ ,  F,  3200
+Source\libunls\nls_base.c, %TARGET%\ ,  F,  11112
+Source\libunls\nls_cp437.c, %TARGET%\ ,  F,  23539
+Source\libunls\nls_cp737.c, %TARGET%\ ,  F,  19295
+Source\libunls\nls_cp775.c, %TARGET%\ ,  F,  19295
+Source\libunls\nls_cp850.c, %TARGET%\ ,  F,  17173
+Source\libunls\nls_cp852.c, %TARGET%\ ,  F,  17173
+Source\libunls\nls_cp855.c, %TARGET%\ ,  F,  17173
+Source\libunls\nls_cp857.c, %TARGET%\ ,  F,  15051
+Source\libunls\nls_cp860.c, %TARGET%\ ,  F,  21417
+Source\libunls\nls_cp861.c, %TARGET%\ ,  F,  23539
+Source\libunls\nls_cp862.c, %TARGET%\ ,  F,  25660
+Source\libunls\nls_cp863.c, %TARGET%\ ,  F,  23538
+Source\libunls\nls_cp864.c, %TARGET%\ ,  F,  23198
+Source\libunls\nls_cp865.c, %TARGET%\ ,  F,  23538
+Source\libunls\nls_cp866.c, %TARGET%\ ,  F,  19294
+Source\libunls\nls_cp869.c, %TARGET%\ ,  F,  17172
+Source\libunls\nls_cp874.c, %TARGET%\ ,  F,  15050
+Source\libunls\nls_iso8859-1.c, %TARGET%\ ,  F,  10570
+Source\libunls\nls_iso8859-14.c, %TARGET%\ ,  F,  13093
+Source\libunls\nls_iso8859-15.c, %TARGET%\ ,  F,  12814
+Source\libunls\nls_iso8859-2.c, %TARGET%\ ,  F,  14814
+Source\libunls\nls_iso8859-3.c, %TARGET%\ ,  F,  14814
+Source\libunls\nls_iso8859-4.c, %TARGET%\ ,  F,  14814
+Source\libunls\nls_iso8859-5.c, %TARGET%\ ,  F,  15078
+Source\libunls\nls_iso8859-6.c, %TARGET%\ ,  F,  12692
+Source\libunls\nls_iso8859-7.c, %TARGET%\ ,  F,  17200
+Source\libunls\nls_iso8859-8.c, %TARGET%\ ,  F,  15078
+Source\libunls\nls_iso8859-9.c, %TARGET%\ ,  F,  12692
+Source\libunls\nls_koi8-r.c, %TARGET%\ ,  F,  19301
+Source\libunls\nls_mac-roman.c, %TARGET%\ ,  F,  34652
+Source\misc\getopt.c, %TARGET%\ ,  F,  31214
+Source\misc\getopt.c.flc, %TARGET%\ ,  F,  9805
+Source\misc\getopt.h, %TARGET%\ ,  F,  4553
+Source\misc\getopt1.c, %TARGET%\ ,  F,  4510
+Source\misc\Makefile, %TARGET%\ ,  F,  215
+Source\precompiled\install.CMD, %TARGET%\ ,  F,  4973
+Source\precompiled\isofs.ins, %TARGET%\ ,  F,  7676
+Source\precompiled\stubfsd.ifs, %TARGET%\ ,  F,  12562
+Source\precompiled\uninstal.CMD, %TARGET%\ ,  F,  4167
+Source\system\sysdep.h, %TARGET%\ ,  F,  2741
+Source\system\types.h, %TARGET%\ ,  F,  1542
+Source\system\os2\Makefile, %TARGET%\ ,  F,  184
+Source\system\os2\os2.c, %TARGET%\ ,  F,  4756
+Source\system\os2\sysspec.h, %TARGET%\ ,  F,  1648
+Source\system\posix\Makefile, %TARGET%\ ,  F,  186
+Source\system\posix\posix.c, %TARGET%\ ,  F,  3393
+Source\system\posix\sysspec.h, %TARGET%\ ,  F,  1378
+Source\warpin\isofs.wis, %TARGET%\ ,  F,  4682
+
+[OBJECTS]
+Isofs V0.2.1õ,õ <ISOFS_FOLDER>õ,õ WPFolderõ,õ <WP_DESKTOP>õ,õ õ,õ update
+Isofs Readmeõ,õ <ISOFS_README>õ,õ WPProgramõ,õ <ISOFS_FOLDER>õ,õ EXENAME=view.exe;STARTUPDIR=%TARGET%\docs;PARAMETERS=%TARGET%\docs\readme.inf;õ,õ update
+Mount iso file^(Drop the file here)õ,õ <ISOFS_MOUNT>õ,õ WPProgramõ,õ <ISOFS_FOLDER>õ,õ EXENAME=%TARGET%\bin\mntisofs.exe;STARTUPDIR=%TARGET%\bin;PARAMETERS=[drive letter:] %*;MINIMIZED=YES;MINVIEW=HIDE;õ,õ update
+Unmount iso fileõ,õ <ISOFS_UNMOUNT>õ,õ WPProgramõ,õ <ISOFS_FOLDER>õ,õ EXENAME=%TARGET%\bin\umntiso.exe;STARTUPDIR=%TARGET%\bin;PARAMETERS=[drive letter:];MINIMIZED=YES;MINVIEW=HIDE;õ,õ update
+Uninstall Iso-FS^V0.2.1õ,õ <ISOFS_UNINSTALL>õ,õ WPProgramõ,õ <ISOFS_FOLDER>õ,õ EXENAME=%TARGET%\bin\uninstal.cmd;STARTUPDIR=%TARGET%\bin;PARAMETERS=1;õ,õ update
+Isofs V0.2.1õ,õ <ISOFS_FLDRSHADOW>õ,õ WPShadowõ,õ <CD_WRITING>õ,õ SHADOWID=<ISOFS_FOLDER>õ,õ update
+
+[INSTALLPROFILES]
+ISOFS õ,õ ISO-FS: IFS for access to ISO image files õ,õ ISO-FS is an installable filesystem for seemless read-only access to ISO image files used for burning on CD. Make sure to deinstall any older version before installing.
+
+[ISOFS]
+ISOFS, , ,S,[ ], isofs.ins
+
+[DEFAULTTARGET]
+PATH %APPS%\CDBurn\ISO-FS
+
+[CONFIGSYS]
+IFS õ,õ  õ,õ %TARGET%\bin\stubfsd.ifs ISOFS õ,õ R õ,õ 
+RUN õ,õ  õ,õ %TARGET%\bin\isofsdmn.exe õ,õ R õ,õ 
+
